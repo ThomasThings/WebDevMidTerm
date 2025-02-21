@@ -1,0 +1,20 @@
+/* CSS Document */
+/* Heading element */
+h1 {
+text-align: center;
+}
+/* Media querie for all elements for Desktop */
+/* Media querie for all elements for Tablet */
+
+
+
+/* Body element */
+body {
+    background-color: rgba(255, 255, 255, 0.911);
+  }
+  h1 {
+    color: rgba(5, 5, 5, 0);
+  }
+  p {
+    color: rgb(7, 7, 7);
+  }
