@@ -6,33 +6,7 @@ text-align: center;
 /* Media querie for all elements for Desktop */
 /* Media querie for all elements for Tablet */
 
-nav {
-    width: 100%;
-    padding-bottom: 10%;
-}
 
-nav ul {
-    text-align: center;
-    list-style-type: none;
-}
-
-nav li {
-    font-size: 1.5em;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-left: 1%;
-    padding-right: 1%;
-    width: 31.334%;
-    float: left;
-    background-color: #67afcb;
-}
-
-nav li a {
-    display: block;
-    color: #092834;
-    text-decoration: none;
-
-}
 
 /* Body element */
 body {
@@ -47,3 +21,32 @@ body {
   p {
     color: black
   }
+/* Style rules for nav */
+nav {
+	position: -webkit-sticky;
+    position: sticky;
+    padding: 1%;
+    margin-bottom: 1%;
+    background-color: #67afcb;
+    top: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    font-family: "B612", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 4%;
+}
+
+nav li a {
+    display: block;
+    color: #092834;
+    text-decoration: none;
+}
