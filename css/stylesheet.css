@@ -1,0 +1,52 @@
+/* CSS Document */
+/* Heading element */
+h1 {
+text-align: center;
+}
+/* Media querie for all elements for Desktop */
+/* Media querie for all elements for Tablet */
+
+
+
+/* Body element */
+body {
+  background-image: url("../Images/Relaxing.png");
+  background-size: cover;
+  background-color: whitesmoke
+  }
+  
+  h1 {
+    color: black
+  }
+  p {
+    color: black
+  }
+/* Style rules for nav */
+nav {
+	position: -webkit-sticky;
+    position: sticky;
+    padding: 1%;
+    margin-bottom: 1%;
+    background-color: #67afcb;
+    top: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    font-family: "B612", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 4%;
+}
+
+nav li a {
+    display: block;
+    color: #092834;
+    text-decoration: none;
+}
