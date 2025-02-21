@@ -1,53 +1,58 @@
 /* CSS Document */
 /* Heading element */
 h1 {
-text-align: center;
-}
-/* Media querie for all elements for Desktop */
-/* Media querie for all elements for Tablet */
-
-
-
-/* Body element */
-body {
-  background-image: url("../Images/Relaxing.png");
-  background-size: cover;
-  background-color: whitesmoke
+  text-align: center;
+  }
+  h3 {
+    color: white;
   }
   
-  h1 {
-    color: black
+  /* Media querie for all elements for Desktop */
+  /* Media querie for all elements for Tablet */
+  
+  
+  
+  /* Body element */
+  body {
+    background-image: url("../Images/Relaxing.png");
+    background-size: cover;
+    background-color: whitesmoke
+    }
+    
+    h1 {
+      color: white
+    }
+    p {
+      color: white
+    }
+  /* Style rules for nav */
+  nav {
+    position: -webkit-sticky;
+      position: sticky;
+      padding: 1%;
+      margin-bottom: 1%;
+      background-color: #67afcb;
+      top: 0px;
   }
-  p {
-    color: black
+  
+  nav ul {
+      list-style-type: none;
+      text-align: center;
   }
-/* Style rules for nav */
-nav {
-	position: -webkit-sticky;
-    position: sticky;
-    padding: 1%;
-    margin-bottom: 1%;
-    background-color: #67afcb;
-    top: 0px;
-}
-
-nav ul {
-    list-style-type: none;
-    text-align: center;
-}
-
-nav li {
-    font-family: "B612", serif;
-    font-weight: 400;
-    font-style: normal;
-    display: inline-block;
-    font-size: 1.5em;
-    padding: 1%;
-    width: 25%;
-}
-
-nav li a {
-    display: block;
-    color: #092834;
-    text-decoration: none;
-}
+  
+  nav li {
+      font-family: "B612", serif;
+      font-weight: 400;
+      font-style: normal;
+      display: inline-block;
+      font-size: 1.5em;
+      padding: 1%;
+      width: 25%;
+  }
+  
+  nav li a {
+      display: block;
+      color: #092834;
+      text-decoration: none;
+  }
+  
