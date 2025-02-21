@@ -10,11 +10,14 @@ text-align: center;
 
 /* Body element */
 body {
-    background-color: rgba(255, 255, 255, 0.911);
+  background-image: url("../Images/Relaxing.png");
+  background-size: cover;
+  background-color: whitesmoke
   }
+  
   h1 {
-    color: rgba(5, 5, 5);
+    color: black
   }
   p {
-    color: rgb(7, 7, 7);
+    color: black
   }
