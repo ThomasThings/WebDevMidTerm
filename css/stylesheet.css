@@ -1,37 +1,43 @@
 /* CSS Document */
 /* Heading element */
 h1 {
-  text-align: center;
+text-align: center;
+}
+/* Media querie for all elements for Desktop */
+/* Media querie for all elements for Tablet */
+
+
+
+/* Body element */
+body.landing {
+  background-image: url("../Images/background-home.png");
+  background-size: cover;
+  background-color: whitesmoke
+}
+body.content {
+  background-image: url("../Images/background-accomplishments.png");
+  background-size: cover;
+  background-color: whitesmoke
+}
+body.about {
+  background-image: url("../Images/background-about-us.png");
+  background-size: cover;
+  background-color: whitesmoke
+}
+  
+  h1 {
+    color: black
   }
-  h3 {
-    color: white;
+  p {
+    color: black
   }
-  
-  /* Media querie for all elements for Desktop */
-  /* Media querie for all elements for Tablet */
-  
-  
-  
-  /* Body element */
-  body {
-    background-image: url("../Images/Relaxing.png");
-    background-size: cover;
-    background-color: whitesmoke
-    }
-    
-    h1 {
-      color: white
-    }
-    p {
-      color: white
-    }
-  /* Style rules for nav */
+/* Style rules for nav */
 nav {
 	position: -webkit-sticky;
     position: sticky;
     padding: 1%;
     margin-bottom: 1%;
-    background-color: #40468b;
+    background-color: #40404a;
     top: 0px;
     border: 2pt solid #0a0b1d;
     border-radius: 10pt;
@@ -54,4 +60,18 @@ nav li {
     border: 2pt solid #0a0b1d;
     border-radius: 10pt;
 }
-  
+#land {
+    background-color: #404073;
+}
+#about {
+    background-color: #63472c;
+}
+#content {
+    background-color: #336235;
+}
+
+nav li a {
+    display: block;
+    color: #0a0b1d;
+    text-decoration: none;
+}
