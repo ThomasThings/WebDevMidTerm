@@ -79,6 +79,15 @@ h1 {
   #content {
       background-color: #336235;
   }
+  #land:hover {
+      background-color: #6868a3;
+  }
+  #about:hover {
+      background-color: #8b633b;
+  }
+  #content:hover {
+      background-color: #3d8040;
+  }
   
   nav li a {
       display: block;
