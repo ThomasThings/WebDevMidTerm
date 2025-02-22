@@ -1,115 +1,113 @@
 /* CSS Document */
 /* Heading element */
 h1 {
-text-align: center;
-}
-/* Media querie for all elements for Desktop */
-/* Media querie for all elements for Tablet */
-
-
-
-/* Body element */
-body {
-  background-size: center;
-}
-body.landing {
-  background-image: url("../Images/background-home.png");
-  background-color: whitesmoke
-}
-body.content {
-  background-image: url("../Images/background-accomplishments.png");
-  background-color: whitesmoke
-}
-body.about {
-  background-image: url("../Images/background-about-us.png");
-  background-color: whitesmoke
-}
-  
+  text-align: center;
+  }
   h1 {
     color: white;
-  }
-
-  h2 {
-    color: white;
-    text-align: center;
   }
   h3 {
       color: white;
     }
+  /* Media querie for all elements for Desktop */
+  /* Media querie for all elements for Tablet */
+  
+  
+  
+  /* Body element */
+  body {
+    background-size: center;
+  }
+  body.landing {
+    background-image: url("../Images/background-home.png");
+    background-color: whitesmoke
+  }
+  body.content {
+    background-image: url("../Images/background-accomplishments.png");
+    background-color: whitesmoke
+  }
+  body.about {
+    background-image: url("../Images/background-about-us.png");
+    background-color: whitesmoke
+  }
+   .CTCLogo {
+  text-align: center;
+}
   p {
-    color: white;
-  }
-/* Style rules for nav */
-nav {
-	position: -webkit-sticky;
-    position: sticky;
-    padding: 1%;
-    margin-bottom: 1%;
-    background-color: #40404a;
-    top: 0px;
-    border: 2pt solid #0a0b1d;
-    border-radius: 10pt;
-}
-
-nav ul {
-    list-style-type: none;
-    text-align: center;
-}
-
-nav li {
-    font-family: "B612", serif;
-    font-weight: 400;
-    font-style: normal;
-    display: inline-block;
-    font-size: 1.5em;
-    background-color: #7f85c6;
-    padding: 1%;
-    width: 25%;
-    border: 2pt solid #0a0b1d;
-    border-radius: 10pt;
-}
-#land {
-    background-color: #404073;
-}
-#about {
-    background-color: #63472c;
-}
-#content {
-    background-color: #336235;
-}
-
-nav li a {
-    display: block;
-    color: #0a0b1d;
-    text-decoration: none;
-}
-main {
-    width: 90%;
-    padding: 5%;
-}
-
-footer{
-    margin-bottom: 420px;  
+      color: white;
+    }
+  /* Google Font */
+  body {
+    font-family: 'Handlee', sans-serif;
   }
 
-.content_item {
-    float: left;
-    width: 22.5%;
-    border: 2pt solid #0a0b1d;
-    border-radius: 10pt;
-    margin: 1%;
-    background-color: rgba(150, 150, 150, 0.5);
-}
-.content_item_image_container {
-    width: 80%;
-    padding: 10%;
-    float: both;
-}
-.content_item_image{
-    border: 2pt solid #0a0b1d;
-    border-radius: 10pt;
-}
-.content_item>p {
-    padding: 5%;
-    text-align: center;
-}
+  /* Style rules for nav */
+  nav {
+    position: -webkit-sticky;
+      position: sticky;
+      padding: 1%;
+      margin-bottom: 1%;
+      background-color: #40404a;
+      top: 0px;
+      border: 2pt solid #0a0b1d;
+      border-radius: 10pt;
+  }
+  
+  nav ul {
+      list-style-type: none;
+      text-align: center;
+  }
+  
+  nav li {
+      font-family: "B612", serif;
+      font-weight: 400;
+      font-style: normal;
+      display: inline-block;
+      font-size: 1.5em;
+      background-color: #7f85c6;
+      padding: 1%;
+      width: 25%;
+      border: 2pt solid #0a0b1d;
+      border-radius: 10pt;
+  }
+  #land {
+      background-color: #404073;
+  }
+  #about {
+      background-color: #63472c;
+  }
+  #content {
+      background-color: #336235;
+  }
+  
+  nav li a {
+      display: block;
+      color: #0a0b1d;
+      text-decoration: none;
+  }
+  
+  footer{
+      margin-bottom: 420px;  
+    }
+  
+  .content_item {
+      float: left;
+      width: 22.5%;
+      border: 2pt solid #0a0b1d;
+      border-radius: 10pt;
+      margin: 1%;
+      background-color: rgba(150, 150, 150, 0.5);
+  }
+  .content_item_image_container {
+      width: 80%;
+      padding: 10%
+  }
+  .content_item_image{
+      border: 2pt solid #0a0b1d;
+      border-radius: 10pt;
+  }
+  .content_item>p {
+      padding: 5%;
+      text-align: center;
+  }
+  
