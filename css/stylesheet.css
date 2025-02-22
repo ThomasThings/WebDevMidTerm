@@ -89,7 +89,17 @@ h1 {
   footer{
       margin-bottom: 420px;  
     }
-  
+
+    .about_item {
+        width: 88%;
+        border: 2pt solid #0a0b1d;
+        border-radius: 10pt;
+        margin-left: 2%;
+        margin-right: 2%;
+        background-color: rgba(150, 150, 150, 0.5);
+        padding: 3%
+    }
+
   .content_item {
       float: left;
       width: 22.5%;
