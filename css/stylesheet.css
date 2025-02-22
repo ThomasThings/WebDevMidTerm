@@ -26,10 +26,13 @@ body.about {
 }
   
   h1 {
-    color: white
+    color: white;
+  }
+  h3 {
+    color: white;
   }
   p {
-    color: white
+    color: white;
   }
 /* Style rules for nav */
 nav {
