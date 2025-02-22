@@ -106,11 +106,9 @@ h1 {
       border: 2pt solid #0a0b1d;
       border-radius: 10pt;
   }
-  .content_item_text {
-      padding: 4%;
-  }
   .content_item>p {
-      padding: 0.5%;
+      width: 80%
+      margin: 10%;
       text-align: center;
   }
   
