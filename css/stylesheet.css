@@ -9,19 +9,19 @@ text-align: center;
 
 
 /* Body element */
+body {
+  background-size: center;
+}
 body.landing {
   background-image: url("../Images/background-home.png");
-  background-size: cover;
   background-color: whitesmoke
 }
 body.content {
   background-image: url("../Images/background-accomplishments.png");
-  background-size: cover;
   background-color: whitesmoke
 }
 body.about {
   background-image: url("../Images/background-about-us.png");
-  background-size: cover;
   background-color: whitesmoke
 }
   
@@ -29,8 +29,8 @@ body.about {
     color: white;
   }
   h3 {
-    color: white;
-  }
+      color: white;
+    }
   p {
     color: white;
   }
@@ -82,3 +82,24 @@ nav li a {
 footer{
     margin-bottom: 420px;  
   }
+
+.content_item {
+    float: left;
+    width: 22.5%;
+    border: 2pt solid #0a0b1d;
+    border-radius: 10pt;
+    margin: 1%;
+    background-color: rgba(150, 150, 150, 0.5);
+}
+.content_item_image_container {
+    width: 80%;
+    padding: 10%
+}
+.content_item_image{
+    border: 2pt solid #0a0b1d;
+    border-radius: 10pt;
+}
+.content_item>p {
+    padding: 5%;
+    text-align: center;
+}
