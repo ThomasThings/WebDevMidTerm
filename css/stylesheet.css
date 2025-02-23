@@ -1,17 +1,103 @@
 /* CSS Document */
-/* Heading element */
-h1 {
+
+/* Text management */
+  h1 {
   text-align: center;
   }
+
   h1 {
     color: white;
   }
+
   h3 {
       color: white;
-    }
-  /* Media querie for all elements for Desktop */
-  /* Media querie for all elements for Tablet */
-  
+  }
+
+  p {
+      color: white;
+  }
+
+  /* Media querie management*/
+  @media (min-width: 1024px) {
+    .content_item {
+          float: left;
+          width: 22.5%;
+          border: 2pt solid #0a0b1d;
+          border-radius: 10pt;
+          margin: 1%;
+          background-color: rgba(150, 150, 150, 0.5);
+      }
+   nav li {
+          font-family: "B612", serif;
+          font-weight: 400;
+          font-style: normal;
+          display: inline-block;
+          font-size: 1.5em;
+          background-color: #7f85c6;
+          margin: 1%;
+          padding: 1%;
+          width: 28%;
+          border: 2pt solid #0a0b1d;
+          border-radius: 10pt;
+          text-align: center;
+          flot: left;
+      }
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .content_item {
+          float: left;
+          width: 30.5%;
+          border: 2pt solid #0a0b1d;
+          border-radius: 10pt;
+          margin: 1%;
+          background-color: rgba(150, 150, 150, 0.5);
+      }
+   nav li {
+          font-family: "B612", serif;
+          font-weight: 400;
+          font-style: normal;
+          display: inline-block;
+          font-size: 1.5em;
+          background-color: #7f85c6;
+          margin: 1%;
+          padding: 1%;
+          width: 28%;
+          border: 2pt solid #0a0b1d;
+          border-radius: 10pt;
+          text-align: center;
+          flot: left;
+       }
+  }
+
+  @media (max-width: 767px) {
+    .content_item {
+          float: left;
+          width: 45%;
+          border: 2pt solid #0a0b1d;
+          border-radius: 10pt;
+          margin: 1.5%;
+          background-color: rgba(150, 150, 150, 0.5);
+      }
+   nav li {
+          font-family: "B612", serif;
+          font-weight: 400;
+          font-style: normal;
+          display: inline-block;
+          font-size: 1.5em;
+          background-color: #7f85c6;
+          margin-left: 14%;
+          margin-right: 14%;
+          margin-top: 1%;
+          margin-bottom: 1%;
+          padding: 1%;
+          width: 70%;
+          border: 2pt solid #0a0b1d;
+          border-radius: 10pt;
+          text-align: center;
+          flot: left;
+       }
+  }
   
   
   /* Body element */
@@ -30,13 +116,14 @@ h1 {
     background-image: url("../Images/background-about-us.png");
     background-color: whitesmoke;
   }
-   .CTCLogo {
+
+  .CTCLogo {
   text-align: center;
-}
-  p {
-      color: white;
-    }
-  /* Google Font */
+  }
+
+
+
+  /* Google Font Import */
   body {
     font-family: 'Handlee', sans-serif;
   }
@@ -45,31 +132,23 @@ h1 {
   nav {
     position: -webkit-sticky;
       position: sticky;
-      padding: 1%;
       margin-bottom: 1%;
       background-color: #40404a;
       top: 0px;
       border: 2pt solid #0a0b1d;
       border-radius: 10pt;
   }
-  
   nav ul {
       list-style-type: none;
       text-align: center;
+      width: 90%
+      margin: 2%;
+      padding-left: 2%;
+      padding-right: 2%;
   }
+
+  /*Nav Button Hover Lights*/
   
-  nav li {
-      font-family: "B612", serif;
-      font-weight: 400;
-      font-style: normal;
-      display: inline-block;
-      font-size: 1.5em;
-      background-color: #7f85c6;
-      padding: 1%;
-      width: 25%;
-      border: 2pt solid #0a0b1d;
-      border-radius: 10pt;
-  }
   #land {
       background-color: #404073;
   }
@@ -94,11 +173,16 @@ h1 {
       color: #0a0b1d;
       text-decoration: none;
   }
+
+  main {
+    width: 95%;
+    margin: 2.5%;
+  }
   
   footer{
       margin-bottom: 420px;  
     }
-
+    /*Managing for Accomplishments page content*/
     .about_item {
         width: 88%;
         border: 2pt solid #0a0b1d;
@@ -109,14 +193,6 @@ h1 {
         padding: 3%;
     }
 
-  .content_item {
-      float: left;
-      width: 22.5%;
-      border: 2pt solid #0a0b1d;
-      border-radius: 10pt;
-      margin: 1%;
-      background-color: rgba(150, 150, 150, 0.5);
-  }
   .content_item_image_container {
       width: 80%;
       padding: 10%;
