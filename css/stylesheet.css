@@ -1,92 +1,133 @@
-/*
-Author: Jackson Martin
-File Name: styles.css
-Date: 02/13/2025
-*/
-
-/* CSS Reset */
-body, header, nav, main, footer, h1, div, img, ul {
-    margin: 0;
-    padding: 0;
-    border: 0;
+/* CSS Document */
+/* Heading element */
+h1 {
+  text-align: center;
+  }
+  h1 {
+    color: white;
+  }
+  h3 {
+      color: white;
+    }
+  /* Media querie for all elements for Desktop */
+  /* Media querie for all elements for Tablet */
+  
+  
+  
+  /* Body element */
+  body {
+    background-size: center;
+  }
+  body.landing {
+    background-image: url("../Images/background-home.png");
+    background-color: whitesmoke;
+  }
+  body.content {
+    background-image: url("../Images/background-accomplishments.png");
+    background-color: whitesmoke;
+  }
+  body.about {
+    background-image: url("../Images/background-about-us.png");
+    background-color: whitesmoke;
+  }
+   .CTCLogo {
+  text-align: center;
 }
+  p {
+      color: white;
+    }
+  /* Google Font */
+  body {
+    font-family: 'Handlee', sans-serif;
+  }
 
-/* Style rule for img */
-img{
-max-width: 100%;
-display: block;
-}
+  /* Style rules for nav */
+  nav {
+    position: -webkit-sticky;
+      position: sticky;
+      padding: 1%;
+      margin-bottom: 1%;
+      background-color: #40404a;
+      top: 0px;
+      border: 2pt solid #0a0b1d;
+      border-radius: 10pt;
+  }
+  
+  nav ul {
+      list-style-type: none;
+      text-align: center;
+  }
+  
+  nav li {
+      font-family: "B612", serif;
+      font-weight: 400;
+      font-style: normal;
+      display: inline-block;
+      font-size: 1.5em;
+      background-color: #7f85c6;
+      padding: 1%;
+      width: 25%;
+      border: 2pt solid #0a0b1d;
+      border-radius: 10pt;
+  }
+  #land {
+      background-color: #404073;
+  }
+  #about {
+      background-color: #63472c;
+  }
+  #content {
+      background-color: #336235;
+  }
+  #land:hover {
+      background-color: #6868a3;
+  }
+  #about:hover {
+      background-color: #8b633b;
+  }
+  #content:hover {
+      background-color: #3d8040;
+  }
+  
+  nav li a {
+      display: block;
+      color: #0a0b1d;
+      text-decoration: none;
+  }
+  
+  footer{
+      margin-bottom: 420px;  
+    }
 
-/* Style rules for mobile viewport */
+    .about_item {
+        width: 88%;
+        border: 2pt solid #0a0b1d;
+        border-radius: 10pt;
+        margin-left: 2%;
+        margin-right: 2%;
+        background-color: rgba(150, 150, 150, 0.5);
+        padding: 3%;
+    }
 
-/* Style rule to hide tablet-desk class */
-.tablet-desk{
-    display: none;
-}
-
-/* Style rule for body and images */
-body {
-	background-color: #e4f1f6;
-}
-
-/* Style rule for header */
-header {
-	font-family: Verdana, Arial, sans-serif;
-	text-align: center;
-    padding: 3%;
-    color: #092834;
-    margin-top: 5%;
-}
-
-/* Style rules for nav */
-nav {
-	position: -webkit-sticky;
-    position: sticky;
-    padding: 1%;
-    margin-bottom: 1%;
-    background-color: #67afcb;
-    top: 0px;
-}
-
-nav ul {
-    list-style-type: none;
-    text-align: center;
-}
-
-nav li {
-    font-family: "B612", serif;
-    font-weight: 400;
-    font-style: normal;
-    display: inline-block;
-    font-size: 1.5em;
-    padding: 4%;
-}
-
-nav li a {
-    display: block;
-    color: #092834;
-    text-decoration: none;
-}
-
-/* Style rules for main content  */
-main {
-	display: block;
-	margin: 1% 1% 15%;
-	padding: 1%;
-    font-size: 1.5em;
-}
-
-.corner{
-    border-radius:  12px;
-}
-
-#image {
-    margin-bottom: 1%;
-}
-
-/* Style rule for footer */
-footer {
-	font-size: .70em;
-	text-align: center;
-	margin-top: 2em;
-}
+  .content_item {
+      float: left;
+      width: 22.5%;
+      border: 2pt solid #0a0b1d;
+      border-radius: 10pt;
+      margin: 1%;
+      background-color: rgba(150, 150, 150, 0.5);
+  }
+  .content_item_image_container {
+      width: 80%;
+      padding: 10%;
+  }
+  .content_item_image{
+      border: 2pt solid #0a0b1d;
+      border-radius: 10pt;
+  }
+  .content_item>p {
+      width: 80%;
+      margin: 10%;
+      text-align: center;
+  }
+  
