@@ -1,0 +1,77 @@
+/* CSS Document */
+
+
+/* Color Management */
+.bg-my-main {background-color: #598196;}
+.bg-my-main-dark {background-color: #0a1e2d;}
+.bg-my-white {background-color: #cad2db;}83bfdf
+.bg-select-window {background-color: #83bfdf;}
+
+.bg-club-edge1 {background-color: #0a1e2d;}
+.bg-club-light1 {background-color: #45bbf8;}
+.bg-club-dark1 {background-color: #244d63;}
+
+
+
+
+/* Spacer */
+  .invisible {
+  bg-color: rgba(0, 0, 0, 0)
+  color: rgba(0, 0, 0, 0)
+  }
+
+
+/* Text management */
+  .midtext {
+  text-align: center;
+  }
+
+
+  .CTCLogo {
+  text-align: center;
+  }
+
+
+
+  /* Google Font Import */
+  body {
+    font-family: 'Handlee', sans-serif;
+  }
+
+  /* Style rules for nav */
+  nav {
+      position: sticky;
+      margin-bottom: 10pt;
+      background-color: #40404a;
+      top: 0px;
+  }
+
+  /*Nav Button Hover Lights*/
+
+  #land {
+      background-color: #404073;
+  }
+  #about {
+      background-color: #63472c;
+  }
+  #content {
+      background-color: #336235;
+  }
+  #land:hover {
+      background-color: #6868a3;
+  }
+  #about:hover {
+      background-color: #8b633b;
+  }
+  #content:hover {
+      background-color: #3d8040;
+  }
+
+  main {
+    width: 95%;
+    margin: 2.5%;
+  }
+
+  footer{
+      margin-bottom: 420px;
+    }
